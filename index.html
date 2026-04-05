@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily challenges</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-card">
+    <section class="top-bar">
+      <div class="score-group">
+        <span class="score-label">Points:</span>
+        <strong id="points" class="score-pill">0</strong>
+      </div>
+    </section>
+
+    <section id="main-content">
+      <h1>Daily challenges</h1>
+
+      <section class="category-section">
+        <p class="field-label">Choose a category</p>
+        <div class="category-buttons">
+          <button type="button" class="category-btn active" data-category="Productivity">
+            <span class="category-name">Productivity</span>
+            <span class="category-value">18 pts</span>
+          </button>
+          <button type="button" class="category-btn" data-category="Fitness">
+            <span class="category-name">Fitness</span>
+            <span class="category-value">15 pts</span>
+          </button>
+          <button type="button" class="category-btn" data-category="Social">
+            <span class="category-name">Social</span>
+            <span class="category-value">12 pts</span>
+          </button>
+        </div>
+      </section>
+
+      <button id="generate-btn" class="primary-btn">BRING IT ON!</button>
+
+      <section id="challenge-box" class="challenge-box">
+        Pick a category and get your challenge for today.
+      </section>
+
+      <button id="complete-btn" class="secondary-btn hidden">Challenge complete!</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
