@@ -5,12 +5,10 @@ Daily challenges is a simple front-end web app built with HTML, CSS, and JavaScr
 ## Features
 
 - Dark-themed, mobile-friendly interface
-- Three category buttons instead of a dropdown
+- Three categories
 - Different point rewards for each category
 - Up to 3 challenges per day
 - 50 unique challenges in each category
-- No repeated challenge in the same day
-- Persistent points and progress with `localStorage`
 - Protection against scoring the same challenge more than once
 - Special end-of-day screen after all 3 daily tasks are completed
 - Subtle smooth animations for a more polished feel
